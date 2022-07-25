@@ -1,10 +1,11 @@
 
 .nav{
   background-color: #F5CECE;
-  height: 8vh;
   display: flex;
   justify-content: center;
   height: 10vh;
+  position: sticky;
+  width: 100%;
 }
 
 /* Home styling */
@@ -13,7 +14,7 @@ height: 60vh;
 background-image: url("/public/images/maldives1.jpeg");
 background-repeat: no-repeat;
 background-size: cover;
-height: 100vh;
+height: 70vh;
 
 }
 
@@ -47,6 +48,14 @@ height: 100vh;
   text-align: center;
 }
 
+
+.contact{
+  background-color: #F5CECE; 
+  height: 30vh;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
 
 
 /* .App {
