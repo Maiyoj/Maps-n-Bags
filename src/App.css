@@ -1,34 +1,28 @@
-body{
-  background-image: url("/public/images/maldives1.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 80vh;
-
-}
-
 
 .nav{
   background-color: #F5CECE;
-  height: 15vh;
+  height: 8vh;
   display: flex;
   justify-content: center;
- 
-
+  height: 10vh;
 }
 
 /* Home styling */
 .home{
-text-align: center;
-font-size: 30px;
 height: 60vh;
-
+background-image: url("/public/images/maldives1.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 80vh;
 
 }
 
 
-
-
-
+#home-content{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 100px;
+}
 
 
 

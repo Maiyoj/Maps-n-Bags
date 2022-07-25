@@ -2,11 +2,9 @@ import {NavLink} from "react-router-dom"
 const navStyles = {
     display: "inline",
     width: "50px",
-    padding: "12px",
-    margin: "0 6px 6px",
+    padding: "30px",
     textDecoration: "none",
     color: "Black",
-
   };
   
 
