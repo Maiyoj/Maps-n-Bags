@@ -20,14 +20,16 @@ const allBlogs = blogs.map((blog) =>{
     title={blog.title}
     image={blog.image}
     content={blog.content}
+    author={blog.author}
 
     />
 })
 
   
     return(
-         <div>
-        {allBlogs}
+         <div className="blogs">
+            <h1>Blogs</h1> 
+             {allBlogs}
         </div>
     )
 

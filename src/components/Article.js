@@ -1,11 +1,13 @@
-function Article({image, content, title}){
+function Article({image, content, title, author}){
 
     return(
         <>
+        <div className="article">
         <h3>{title}</h3>
         <img src={image} alt="Test"></img>
-        <p>{title}</p>
         <p>{content}</p>
+        <p>{author}</p>
+        </div>
         </>
     )
 }

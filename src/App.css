@@ -24,14 +24,24 @@ height: 100vh;
   padding-top: 130px;
 }
 
+.article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 
+.article h3{
+  text-align: center;
+}
 
+.article p{
+  width: 40%;
+}
 
-
-
-
-
+.blogs h1{
+  text-align: center;
+}
 
 
 

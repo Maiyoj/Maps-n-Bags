@@ -15,20 +15,23 @@ function Navbar(){
         <div className="nav">
         <NavLink
         to={"/"}
-        exact
+        exact="true"
         style={navStyles}
         >
             Home
         </NavLink>
+
         <NavLink
-        exact
+         exact="true"
         to={"/blog"}
         style={navStyles}
         >
             Blog
         </NavLink>
+        
         <NavLink
         to={"/adventure"}
+        exact="true"
         style={navStyles}
         >
             Adventure
