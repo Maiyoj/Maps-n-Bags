@@ -4,16 +4,24 @@
         "id": 1,
         "title": "Woody",
         "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-        "blog":"",
+        "blog":"love damini",
         "author":"Valentine"
 
        
       },
       {
-        "id": 1,
+        "id": 2,
         "title": "Woody",
         "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-        "blog":"",
+        "blog":"hello",
+        "author":"Valentine"
+
+      }, 
+      {
+        "id": 3,
+        "title": "Woody",
+        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
+        "blog":"hello",
         "author":"Valentine"
 
       }

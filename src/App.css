@@ -2,8 +2,13 @@ body{
   background-image: url("/public/images/maldives1.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 80vh;
+
 }
+
+
 .nav{
+  background-color: #F5CECE;
   height: 15vh;
   display: flex;
   justify-content: center;
@@ -19,7 +24,6 @@ height: 60vh;
 
 
 }
-
 
 
 

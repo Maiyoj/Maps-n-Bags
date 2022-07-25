@@ -9,6 +9,7 @@ import Adventure from './components/Adventure';
 function App() {
   return (
     <div>
+  
       <Navbar />
       <Routes>
         <Route exact  path="/" element={ <Home/> } />

@@ -5,6 +5,8 @@ function Home(){
                 <h1>Life is an Adventure</h1>
                 <p>Where Do You Want To Start Your Next Adventure?</p>
             </div>
+          
+
 
         </div>
     )
