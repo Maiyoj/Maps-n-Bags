@@ -36,9 +36,13 @@ height: 100vh;
 }
 
 .article p{
-  width: 40%;
+  width: 60%;
+}
+.article img{
+ width: 60%;
 }
 
+/* Blog style */
 .blogs h1{
   text-align: center;
 }
