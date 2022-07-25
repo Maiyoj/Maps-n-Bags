@@ -1,16 +1,21 @@
 {
-    "toys": [
+    "blogs": [
       {
         "id": 1,
-        "name": "Woody",
+        "title": "Woody",
         "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-        "likes": 8
+        "blog":"",
+        "author":"Valentine"
+
+       
       },
       {
-        "id": 2,
-        "name": "Buzz Lightyear",
-        "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-        "likes": 14
+        "id": 1,
+        "title": "Woody",
+        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
+        "blog":"",
+        "author":"Valentine"
+
       }
     ]
   }

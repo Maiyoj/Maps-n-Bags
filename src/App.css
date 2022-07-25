@@ -1,4 +1,33 @@
-.App {
+
+.nav{
+  background-color: #F5CECE;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +64,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
