@@ -19,6 +19,7 @@ const allBlogs = blogs.map((blog) =>{
     key={blog.id}
     title={blog.title}
     image={blog.image}
+    content={blog.content}
 
     />
 })

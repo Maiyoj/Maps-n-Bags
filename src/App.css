@@ -13,7 +13,7 @@ height: 60vh;
 background-image: url("/public/images/maldives1.jpeg");
 background-repeat: no-repeat;
 background-size: cover;
-height: 80vh;
+height: 100vh;
 
 }
 
@@ -21,7 +21,7 @@ height: 80vh;
 #home-content{
   text-align: center;
   font-size: 30px;
-  padding-top: 100px;
+  padding-top: 130px;
 }
 
 
