@@ -21,7 +21,6 @@ const allBlogs = blogs.map((blog) =>{
     image={blog.image}
     content={blog.content}
     author={blog.author}
-
     />
 })
 

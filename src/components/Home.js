@@ -5,8 +5,19 @@ function Home(){
             <div id="home-content">
                 <h1>Life is an Adventure</h1>
                 <p>Where Do You Want To Start Your Next Adventure?</p>
-                <p>Check Out Our Blogs</p>
+                <p>Check Out Our Blogs For To Tips</p>
             </div>
+        </div>
+        <div>
+
+        <h1 className="imageHead"> BucketList Experience</h1>
+        <div className="images">
+            <img src={process.env.PUBLIC_URL + '/images/maldives3.jpg'} alt="Gallery"></img>
+            <img src={process.env.PUBLIC_URL + 'images/italy.jpeg'} alt="Italy"></img>
+            <img src={process.env.PUBLIC_URL + '/images/maldives2.jpeg'} alt="Maldives"></img>
+            </div>
+
+
         </div>
         <div className="contact">
             <p>@2021 designed with love by by Valentine</p>
