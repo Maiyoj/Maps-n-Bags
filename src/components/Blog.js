@@ -26,9 +26,6 @@ const allBlogs = blogs.map((blog) =>{
     />
 })
 
-
-
-  
    
     return(
          <div className="blogs">
