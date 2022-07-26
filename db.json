@@ -30,14 +30,17 @@
    "comments":[
      {
        "id":1,
-       "comment": "I am in love  with this article"
+       "comment": "I am in love  with this article",
+       "user":"Miss Maiyo"
      },   {
       "id":2,
-      "comment": "I am in love  with this article"
+      "comment": "I am in love  with this article",
+      "user":"Bradly"
     },
     {
       "id":3,
-      "comment": "I am in love  with this article"
+      "comment": "I am in love  with this article",
+      "user":"Harvey"
     }
 
    ]

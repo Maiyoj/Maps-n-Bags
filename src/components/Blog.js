@@ -26,7 +26,10 @@ const allBlogs = blogs.map((blog) =>{
     />
 })
 
+
+
   
+   
     return(
          <div className="blogs">
             <h1>Blogs</h1> 

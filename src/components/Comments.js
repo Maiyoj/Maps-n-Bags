@@ -1,17 +1,43 @@
+import {useEffect, useState} from "react"
+
+
 function Comments(){
+    const [comments, setComments] =useState([])
+    useEffect(()=>{
+        fetch("http://localhost:3000/comments")
+        .then((res)=> res.json())
+        .then((data) =>{
+         setComments(data)
+        },[comments,setComments])
+        
+    });
+
+    const allComments = comments.map((comment) =>{
+        return (
+           <div key={comment.id} className="displayComment">
+                 <p >Comment:{comment.comment}</p>
+                 <p >User:{comment.user}</p>
+
+           </div>
+        )
+
+    })
+
+
     return(
 
      <div className="commentForm">
          <h1>Leave a Comment</h1>
-         <div className="displayComment">
-         <p>comment: High</p>
+         {/* <div className="">
+         <p>comment: {comment}</p>
          <p>Author: Hello valentine</p>
-         </div>
+         </div> */}
+
+         {allComments}
          <form className="updateForm">
          <textarea placeholder="Comment"></textarea><br/>
          <input placeholder="name"></input>
          </form>
-    
      </div>
      )
 }
