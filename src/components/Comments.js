@@ -3,6 +3,7 @@ import {useEffect, useState} from "react"
 
 function Comments(){
     const [comments, setComments] =useState([])
+    const[formData, setFormData] = useState()
     useEffect(()=>{
         fetch("https://phase2blogs-api.herokuapp.com/comments")
         .then((res)=> res.json())
