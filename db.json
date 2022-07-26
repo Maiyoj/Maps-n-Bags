@@ -25,7 +25,22 @@
         "author":"Valentine"
 
       }
-    ]
+    ], 
+    
+   "comments":[
+     {
+       "id":1,
+       "comment": "I am in love  with this article"
+     },   {
+      "id":2,
+      "comment": "I am in love  with this article"
+    },
+    {
+      "id":3,
+      "comment": "I am in love  with this article"
+    }
+
+   ]
     
   }
 
