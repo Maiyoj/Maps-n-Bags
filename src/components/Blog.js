@@ -1,5 +1,6 @@
 import Article from "./Article";
 import {useEffect, useState} from "react";
+import Search from "./Search";
 
 
 
@@ -28,7 +29,8 @@ const allBlogs = blogs.map((blog) =>{
     return(
          <div className="blogs">
             <h1>Blogs</h1> 
-             {allBlogs}
+            <Search />
+            {allBlogs}
         </div>
     )
 

@@ -35,7 +35,7 @@ function Navbar(){
         exact="true"
         style={navStyles}
         >
-         Photography
+         About
 
         </NavLink>
         </div>

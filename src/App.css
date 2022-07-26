@@ -29,9 +29,12 @@ height: 70vh;
   width: 18%;
   height: 35vh;
   margin-top: 50px;
+  flex-direction: row;
+  
+
 }
 .images img{
-  padding-left: 19px;
+  padding-left: 25px;
 }
 .imageHead{
 text-align: center;
@@ -64,6 +67,14 @@ padding-top: 20px;
   text-align: center;
 }
 
+.form{
+  margin-left: 380px;
+}
+.form input{
+  padding: 20px;
+  width: 60%;
+  
+}
 /* contact styling */
 .contact{
   background-color: #F5CECE; 
