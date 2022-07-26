@@ -20,7 +20,7 @@ function Comments(){
         return (
            <div key={comment.id} className="displayComment">
                  <p >Comment:{comment.comment}</p>
-                 <p >User:{comment.user}</p>
+                 <p >Name:{comment.user}</p>
            </div>
         )
     })

@@ -3,7 +3,7 @@ function Adventure(){
     <>
     <h1 clas >About Us</h1>
     <div className="about">
-    <img src={process.env.PUBLIC_URL + '/images/val.jpg'} alt="Valentine"></img>
+    <img src={process.env.PUBLIC_URL + '/images/valentine.jpg'} alt="Valentine"></img>
     <p>Hey, I'm Valentine! I'm a 20 something who is passionate about living an adventurous life and helping others to do the same. After working in corporate Human Resources for nearly 2 years, I recently quit my job to travel full time and document my experience along the way. I created this blog to share my travel photos, tips, thoughts, and stories with you!
 
 I traveled out of the country for the first time at 20 years old.  After teaching basic accounting concepts to indigenous(native) communities in Panama through a study abroad program, I fell in love with travel. I loved the exchange of cultures, daring adventures & walking into the unknown. I then went on to spend my 21st birthday in India and my 22nd birthday in South Africa through study abroad programs.
