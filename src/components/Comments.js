@@ -4,7 +4,7 @@ import {useEffect, useState} from "react"
 function Comments(){
     const [comments, setComments] =useState([])
     useEffect(()=>{
-        fetch("http://localhost:3000/comments")
+        fetch("https://phase2blogs-api.herokuapp.com/comments")
         .then((res)=> res.json())
         .then((data) =>{
          setComments(data)
