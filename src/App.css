@@ -104,3 +104,15 @@ width: 60%;
 .about h1{
   text-align: center;
 }
+
+.commentForm{
+  background-color: #F5CECE;
+  height: 40vh;
+ 
+}
+.updateForm{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
