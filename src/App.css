@@ -1,4 +1,4 @@
-
+/* Navstyling */
 .nav{
   background-color: #F5CECE;
   display: flex;
@@ -21,22 +21,26 @@ height: 70vh;
 
 #home-content{
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   padding-top: 130px;
 }
 .images{
   display: flex;
   width: 18%;
   height: 35vh;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 .images img{
   padding-left: 19px;
 }
 .imageHead{
 text-align: center;
+padding-top: 20px;
 }
-
+ .bucketList{
+   height: 60vh;
+ }
+ /* Blog styling */
 .article{
   display: flex;
   flex-direction: column;
@@ -55,12 +59,12 @@ text-align: center;
  width: 60%;
 }
 
-/* Blog style */
+
 .blogs h1{
   text-align: center;
 }
 
-
+/* contact styling */
 .contact{
   background-color: #F5CECE; 
   height: 30vh;
