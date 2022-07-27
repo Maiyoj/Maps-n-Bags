@@ -22,7 +22,7 @@ function Home(){
         </div>
 
         <div className="contact">
-            <p className='icon'><FaInstagramSquare /></p>
+            <p className="icons"><FaInstagramSquare /></p>
             <p>adventure@gmail.com</p>
             <p>@2022 designed with love by by Valentine</p>
         </div>
