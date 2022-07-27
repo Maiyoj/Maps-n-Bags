@@ -1,3 +1,6 @@
+
+import { FaInstagramSquare } from 'react-icons/fa';
+
 function Home(){
     return(
         <>
@@ -19,7 +22,9 @@ function Home(){
         </div>
 
         <div className="contact">
-            <p>@2021 designed with love by by Valentine</p>
+            <p className='icon'><FaInstagramSquare /></p>
+            <p>adventure@gmail.com</p>
+            <p>@2022 designed with love by by Valentine</p>
         </div>
         </>
     )

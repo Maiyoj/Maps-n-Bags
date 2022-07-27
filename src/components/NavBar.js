@@ -12,8 +12,9 @@ const navStyles = {
 function Navbar(){
     return(
         <>
+        
         <div className="nav">
-        {/* <h1>Maps n Bags</h1> */}
+        <h1>Maps n Bags</h1>
         <NavLink
         to={"/"}
         exact="true"
