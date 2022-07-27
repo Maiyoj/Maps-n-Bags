@@ -130,21 +130,38 @@ width: 56%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
   width: 50%;
-  height: 10vh;
+  height: 20vh;
   margin-left: 20%;
   margin-bottom: 20px;
+  background-color: black;
 }
+
+.updateForm textarea{
+  width:60%
+}
+.updateForm input{
+  width: 58%;
+  padding: 10px;
+}
+.submit{
+  margin-top: 10px;
+  width: 5%;
+  background-color: white;
+  color:black;
+}
+
 
 /* comments page div */
 .displayComment{
  width: 40%;
-  border:rgb(20, 2, 20); border-width:1px; border-style:solid;
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-left: 330px;
-  margin-bottom: 15px;
-  font-size: 10px;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+
+hr{
+  font-weight: 10px;
 }

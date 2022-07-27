@@ -22,6 +22,7 @@ function Comments(){
                  <p >Comment:{comment.comment}</p>
                  <p >Name:{comment.user}</p>
            </div>
+           
         )
     })
 
@@ -65,10 +66,11 @@ function Comments(){
      <div className="commentForm">
          <h1>Leave a Comment</h1>
          {allComments}
+         <hr></hr>
          <form className="updateForm">
          <textarea value={formData.comment} placeholder="Comment" name="comment" onChange={handleCommentChange} rows="15" ></textarea><br/>
-         <input value={formData.user} placeholder="name" name="user"  onChange={handleCommentChange}></input>
-         <input type="submit"   onClick={handleSubmit}/>
+         <input value={formData.user} placeholder="name" name="user"  onChange={handleCommentChange}></input><br/>
+         <input type="submit"className="submit"  onClick={handleSubmit}/>
          </form>
      </div>
      )
