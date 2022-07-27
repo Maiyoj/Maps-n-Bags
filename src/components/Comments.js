@@ -19,8 +19,8 @@ function Comments(){
     const allComments = comments.map((comment) =>{
         return (
            <div key={comment.id} className="displayComment">
-                 <p >Comment:{comment.comment}</p>
-                 <p >Name:{comment.user}</p>
+                 <p >Comment:  {comment.comment}</p>
+                 <p >Name:  {comment.user}</p>
            </div>
            
         )
@@ -64,9 +64,10 @@ function Comments(){
     return(
 
      <div className="commentForm">
-         <h1>Leave a Comment</h1>
+         <h1>Comments</h1>
          {allComments}
          <hr></hr>
+         <h1>Leave a Comment</h1>
          <form className="updateForm">
          <textarea value={formData.comment} placeholder="Comment" name="comment" onChange={handleCommentChange} rows="15" ></textarea><br/>
          <input value={formData.user} placeholder="name" name="user"  onChange={handleCommentChange}></input><br/>

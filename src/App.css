@@ -118,8 +118,13 @@ width: 56%;
 }
 .abouth1{
   text-align: center;
+ 
 }
 
+ .commentForm h1{
+  padding-top: 30px;
+ }
+ 
 .commentForm{
   background-color: #F5CECE;
   height:max-content;
@@ -133,20 +138,21 @@ width: 56%;
   width: 50%;
   height: 20vh;
   margin-left: 20%;
-  margin-bottom: 20px;
-  background-color: black;
+  padding-bottom:30px;
+ 
 }
 
 .updateForm textarea{
-  width:60%
+  width:60%;
+  padding:30px
 }
 .updateForm input{
-  width: 58%;
+  width: 65%;
   padding: 10px;
 }
 .submit{
   margin-top: 10px;
-  width: 5%;
+  width: 20%;
   background-color: white;
   color:black;
 }
@@ -162,6 +168,3 @@ width: 56%;
   font-size: 12px;
 }
 
-hr{
-  font-weight: 10px;
-}
