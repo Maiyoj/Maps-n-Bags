@@ -118,8 +118,8 @@ width: 56%;
 
 }
 .image1{
-  width: 50%;
-  height: 60vh;
+  width: 30%;
+  height: 40vh;
   border-radius: 50%;
 }
 .abouth1{
@@ -176,3 +176,22 @@ width: 56%;
   font-size: 15px;
 }
 
+
+/* media queries */
+@media only screen and (max-width: 360px) {
+.images{
+  flex-direction: column;
+  width: 70%;
+  height:80vh;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+.bucketList{
+ height: 100vh;
+}
+
+.contact{
+  flex-direction: column;
+  height: 10vh;
+}
+}

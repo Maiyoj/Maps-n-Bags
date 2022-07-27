@@ -18,6 +18,7 @@ function Home(){
             <img src={process.env.PUBLIC_URL + '/images/maldives3.jpg'} alt="Gallery"></img>
             <img src={process.env.PUBLIC_URL + 'images/italy.jpeg'} alt="Italy"></img>
             <img src={process.env.PUBLIC_URL + '/images/maldives2.jpeg'} alt="Maldives"></img>
+          
             </div>
         </div>
 
@@ -26,7 +27,7 @@ function Home(){
         <div className="contact">
             <p className="icons">INSTA<FaInstagramSquare />GRAM</p>
             <p>adventure@gmail.com</p>
-            <p>@2022 designed with love by by Valentine. </p>
+            <p>@2022 designed with love by by Valentine. All Rights Reserved </p>
         </div>
         </div>
         </>
