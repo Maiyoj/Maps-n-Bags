@@ -9,7 +9,7 @@ function Blog(){
     const [blogs, setBlogs] = useState([])
     const [searchData, setData] = useState("")
  
-    
+  
     useEffect(()=>{
         fetch("https://phase2blogs-api.herokuapp.com/blogs")
         .then((res)=> res.json())
@@ -19,7 +19,19 @@ function Blog(){
     },[]);
 
 
-const allBlogs = blogs.map((blog) =>{
+    const filterData = blogs.filter((blog)=>{
+        if (searchData=== ""){
+            
+            return true;
+        }
+        else{
+        
+         return blog.title.toLowerCase().includes(searchData)
+        }
+    });
+
+
+const allBlogs = filterData.map((blog) =>{
     return <Article 
     key={blog.id}
     title={blog.title}
