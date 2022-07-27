@@ -7,7 +7,9 @@ import Comments from "./Comments";
 
 function Blog(){
     const [blogs, setBlogs] = useState([])
-    const [searchData, setSearchData] = useState("")
+    const [searchData, setData] = useState("")
+ 
+    
     useEffect(()=>{
         fetch("https://phase2blogs-api.herokuapp.com/blogs")
         .then((res)=> res.json())
@@ -31,7 +33,7 @@ const allBlogs = blogs.map((blog) =>{
     return(
          <div className="blogs">
             <h1>Blogs</h1> 
-            <Search />
+            <Search setData={setData}/>
             {allBlogs}
             <Comments />
         </div>
