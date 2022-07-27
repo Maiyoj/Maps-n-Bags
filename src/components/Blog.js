@@ -7,6 +7,7 @@ import Comments from "./Comments";
 
 function Blog(){
     const [blogs, setBlogs] = useState([])
+    const [searchData, setSearchData] = useState("")
     useEffect(()=>{
         fetch("https://phase2blogs-api.herokuapp.com/blogs")
         .then((res)=> res.json())

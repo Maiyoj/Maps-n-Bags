@@ -1,4 +1,6 @@
 function Search(){
+
+    
     return (
         <>
         <div className="form">
@@ -6,7 +8,5 @@ function Search(){
         </div>
         </>
     )
-
-
 }
 export default Search
