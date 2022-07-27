@@ -62,7 +62,6 @@ padding-top: 20px;
  width: 60%;
 }
 
-
 .blogs h1{
   text-align: center;
 }
@@ -84,9 +83,6 @@ padding-top: 20px;
   padding-top: 20px;
   display: flex;
   justify-content: space-around;
-}
-.contact .icons{
-
 }
 
 /* about styling  */
@@ -112,7 +108,7 @@ width: 60%;
 
 .commentForm{
   background-color: #F5CECE;
-  height:100vh;
+  height:max-content;
  
 }
 .updateForm{
