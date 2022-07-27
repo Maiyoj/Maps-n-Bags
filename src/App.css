@@ -136,18 +136,19 @@ width: 56%;
   flex-direction: column;
   align-items: center;
   width: 50%;
-  height: 20vh;
-  margin-left: 20%;
-  padding-bottom:30px;
+  height: max-content;
+  margin-left: 25%;
+  margin-bottom:30px;
+  background-color: black;
  
 }
 
 .updateForm textarea{
-  width:60%;
-  padding:30px
+  width:65%;
+ 
 }
 .updateForm input{
-  width: 65%;
+  width: 63%;
   padding: 10px;
 }
 .submit{
@@ -155,6 +156,7 @@ width: 56%;
   width: 20%;
   background-color: white;
   color:black;
+  margin-bottom: 25px;
 }
 
 
@@ -165,6 +167,6 @@ width: 56%;
   flex-direction: column;
   margin-left: 330px;
   margin-bottom: 4px;
-  font-size: 12px;
+  font-size: 15px;
 }
 

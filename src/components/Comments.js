@@ -69,7 +69,7 @@ function Comments(){
          <hr></hr>
          <h1>Leave a Comment</h1>
          <form className="updateForm">
-         <textarea value={formData.comment} placeholder="Comment" name="comment" onChange={handleCommentChange} rows="15" ></textarea><br/>
+         <textarea value={formData.comment} placeholder="Comment" name="comment" onChange={handleCommentChange} rows="10" ></textarea><br/>
          <input value={formData.user} placeholder="name" name="user"  onChange={handleCommentChange}></input><br/>
          <input type="submit"className="submit"  onClick={handleSubmit}/>
          </form>
