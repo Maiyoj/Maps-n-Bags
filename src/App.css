@@ -115,6 +115,12 @@ width: 56%;
 .about img{
   width: 55%;
   height: 65vh;
+
+}
+.image1{
+  width: 50%;
+  height: 60vh;
+  border-radius: 50%;
 }
 .abouth1{
   text-align: center;
