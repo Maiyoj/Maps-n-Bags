@@ -8,8 +8,10 @@ import Adventure from './components/Adventure';
 
 function App() {
   return (
-    <div>
-
+    <>
+    <div className='head'>
+      <h1>Travelogue of an African Girl</h1>
+      </div>
       <Navbar />
       <Routes>
         <Route exact  path="/" element={ <Home/> } />
@@ -17,8 +19,8 @@ function App() {
         <Route exact  path="/adventure" element={ <Adventure /> } />
       </Routes>
 
-     
-    </div>
+ 
+    </>
   );
 }
 

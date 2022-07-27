@@ -1,4 +1,11 @@
 /* Navstyling */
+.head{
+  background-color: #F5CECE;
+  height: 12vh;
+  text-align: center;
+  padding-top: 25px;
+}
+
 .nav{
   background-color: #F5CECE;
   display: flex;
@@ -15,6 +22,7 @@ background-image: url("/public/images/maldives1.jpeg");
 background-repeat: no-repeat;
 background-size: cover;
 height: 70vh;
+background-color: #F5CECE;
 
 }
 
@@ -75,14 +83,20 @@ padding-top: 20px;
   
 }
 /* contact styling */
-.contact{
+
+.footer{
   background-color: #F5CECE; 
   height: 30vh;
+}
+
+.contact{
+
   margin-top: 20px;
   text-align: center;
   padding-top: 20px;
   display: flex;
   justify-content: space-around;
+
 }
 
 /* about styling  */
@@ -118,8 +132,9 @@ width: 60%;
   align-items: center;
   background-color: white;
   width: 50%;
-  height: 20vh;
+  height: 10vh;
   margin-left: 20%;
+  margin-bottom: 20px;
 }
 
 /* comments page div */

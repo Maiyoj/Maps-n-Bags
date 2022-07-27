@@ -14,7 +14,6 @@ function Navbar(){
         <>
         
         <div className="nav">
-        <h1>Maps n Bags</h1>
         <NavLink
         to={"/"}
         exact="true"

@@ -12,10 +12,13 @@ function Adventure(){
       I can now happily say that leaving my job for an extraordinary life was the best decision I've ever made. I am now doing two things I always dreamed of - traveling the world & inspiring others to do the same. So if you're reading this, please know that it means the world to me! I am honored that you've decided to follow along with me on this journey! I hope that I am able to leave you with something that helps you, entertains you, or simply makes you smile. 
       KEEP GOINg Make yourself at home and say hi so that i can get to know you as well!</p>
     </div>
-    <div className="contact">
-            <p className="icons"><FaInstagramSquare /></p>
+    <div className='footer'>
+         <h3 className="imageHead"> Follow and Reach out</h3>
+        <div className="contact">
+            <p className="icons">INSTA<FaInstagramSquare />GRAM</p>
             <p>adventure@gmail.com</p>
-            <p>@2022 designed with love by by Valentine</p>
+            <p>@2022 designed with love by by Valentine. </p>
+        </div>
         </div>
     </>
   )
