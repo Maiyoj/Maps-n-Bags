@@ -50,12 +50,11 @@ function Comments(){
         .then(newp =>{
             const newComments =  [...comments, newp]
             setComments(newComments);
-          setFormData({
-            ...formData,  
-            title:"",
-            content:"",
-            author:""
-          });
+            setFormData({
+              ...formData,
+              comment:"",
+              user:""
+            })
         })
       }
     
@@ -67,8 +66,8 @@ function Comments(){
          <h1>Leave a Comment</h1>
          {allComments}
          <form className="updateForm">
-         <textarea placeholder="Comment" name="comment" onChange={handleCommentChange} ></textarea><br/>
-         <input placeholder="name" name="name"  onChange={handleCommentChange}></input>
+         <textarea value={formData.comment} placeholder="Comment" name="comment" onChange={handleCommentChange} rows="15" ></textarea><br/>
+         <input value={formData.user} placeholder="name" name="user"  onChange={handleCommentChange}></input>
          <input type="submit"   onClick={handleSubmit}/>
          </form>
      </div>

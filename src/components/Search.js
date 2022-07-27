@@ -2,7 +2,7 @@ function Search(){
     return (
         <>
         <div className="form">
-            <input></input>
+            <input placeholder="Search Blog"></input>
         </div>
         </>
     )
