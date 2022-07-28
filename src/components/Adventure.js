@@ -14,6 +14,7 @@ function Adventure(){
       <img src={process.env.PUBLIC_URL + '/images/girl.jpg'} alt="Valentine"></img>
       <p>Cruise with me</p>
     </div>
+    
     <div className='footer'>
          <h3 className="imageHead"> Follow and Reach out</h3>
         <div className="contact">

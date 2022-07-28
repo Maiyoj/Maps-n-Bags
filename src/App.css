@@ -119,8 +119,8 @@ width: 56%;
 
 }
 .image1{
-  width: 30%;
-  height: 40vh;
+  width: 20%;
+  height: 20vh;
   border-radius: 50%;
 }
 .abouth1{
@@ -179,11 +179,11 @@ width: 56%;
 
 
 /* media queries */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
 .images{
   flex-direction: column;
   width: 70%;
-  height:80vh;
+  height:100vh;
   justify-content: space-around;
   margin-left: 20px;
 }
@@ -206,8 +206,22 @@ width: 56%;
   
 }
 
+
+
+
+
 .form{
   margin-left: 50px;
   width:100%;
 }
 }
+
+
+@media only screen and (min-width: 1390px) {
+  .images{
+    width: 55%;
+    height: 70%
+  }
+  
+  }
+  

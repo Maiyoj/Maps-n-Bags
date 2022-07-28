@@ -12,7 +12,6 @@ const navStyles = {
 function Navbar(){
     return(
         <>
-        
         <div className="nav">
         <NavLink
         to={"/"}
