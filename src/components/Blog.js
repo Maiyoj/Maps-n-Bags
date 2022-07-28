@@ -26,7 +26,7 @@ function Blog(){
         }
         else{
         
-         return blog.title.toLowerCase().includes(searchData)
+         return blog.title.toLowerCase().includes(searchData.toLowerCase())
         }
     });
 
