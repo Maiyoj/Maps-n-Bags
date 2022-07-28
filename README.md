@@ -54,7 +54,7 @@ Travelogue is an app designed for the purpose of sharing my travel experiences a
 ### Technology  Used
 * React js - which was used to create the user Interface.
 * CSS - which was used to style the User Interface.
-* An API that I created and, hosted in Heroku
+* Custom-made API - to get, and post blogs, and comments.
 
 
 ## Known Bugs
