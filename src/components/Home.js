@@ -8,7 +8,7 @@ function Home(){
             <div id="home-content">
                 <h1>Life is an Adventure</h1>
                 <p>Travel with Me</p>
-                <p>Check Out Our Blogs For Tips</p>
+                <p>Check Out My Blogs For Tips</p>
             </div>
         </div>
 

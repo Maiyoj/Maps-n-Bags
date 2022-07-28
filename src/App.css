@@ -76,11 +76,11 @@ padding-top: 20px;
 }
 
 .form{
-  margin-left: 380px;
+  margin-left: 350px;
 }
 .form input{
   padding: 20px;
-  width: 60%;
+  width: 65%;
   
 }
 /* contact styling */
@@ -221,6 +221,11 @@ width: 56%;
   .images{
     width: 55%;
     height: 70%
+  }
+  .form input{
+    padding: 20px;
+    width: 70%;
+    
   }
   
   }

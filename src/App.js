@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <div className='head'>
-      <h1>Travelogue of a Nubian Girl</h1>
+      <h1>Travelogue of a  Girl Growing Wings</h1>
       </div>
       <Navbar />
       <Routes>
