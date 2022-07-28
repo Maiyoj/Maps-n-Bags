@@ -1,7 +1,5 @@
 # Travelogue
  ## By Valentine Maiyo
-## Screenshot
- ![image]({process.env.PUBLIC_URL + '/images/website.png'})
  ## Table of Content
  - [Description](#description)
  - [BDD](#Behaviour-Driven-Development)
@@ -21,7 +19,7 @@ Travelogue is an app designed for the purpose of sharing my travel experiences a
 | Display Blogs and Comments| **On page load** | Get blogs, and comments |
 | Display  Searched Blogs by title| **on  search** | list Blogs that match the search data |
 | Update Comment| **on submit of comments form** | display updated comments on comment section|
-|
+
 
  ###  Features
 
