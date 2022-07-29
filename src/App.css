@@ -115,17 +115,18 @@ padding-top: 20px;
 }
 
 .about p{
-width: 56%;
+width: 45%;
 }
 
-.about img{
-  width: 55%;
+ .image2{
+  width: 45%;
   height: 65vh;
+  margin-top: 15px;
 
 }
 .image1{
-  width: 20%;
-  height: 20vh;
+  width: 35%;
+  height: 55vh;
   border-radius: 50%;
 }
 .abouth1{
