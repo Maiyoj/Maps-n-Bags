@@ -229,6 +229,25 @@ width: 45%;
   margin-left: 50px;
   width:100%;
 }
+.image1{
+  width: 90%;
+  height: 50vh;
+  border-radius: 50%;
+}
+.image2{
+  width: 90%;
+  height: 50Vh;
+}
+.commentForm{
+  width: 100%;
+}
+.updateForm{
+  width: 60%;
+  height: 30vh;
+}
+.articlePara{
+  width: 100%;
+}
 }
 
 

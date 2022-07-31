@@ -5,7 +5,7 @@ function Article({image, content, title, author}){
         <div className="article">
         <h3>{title}</h3>
         <img src={image} alt="Test"></img>
-        <p>{content}</p>
+        <p className="articlePara">{content}</p>
         <p>{author}</p>
         </div>
         </>
