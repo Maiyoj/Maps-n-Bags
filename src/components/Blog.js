@@ -2,12 +2,14 @@ import Article from "./Article";
 import {useEffect, useState} from "react";
 import Search from "./Search";
 import Comments from "./Comments";
+import { FaSpinner } from 'react-icons/fa';
 
 
 
 function Blog(){
     const [blogs, setBlogs] = useState([])
     const [searchData, setData] = useState("")
+    const[load, setLoad] = useState(null)
  
   
     useEffect(()=>{
@@ -15,6 +17,7 @@ function Blog(){
         .then((res)=> res.json())
         .then((data) =>{
            setBlogs(data)
+           setLoad(data)
         })
     },[]);
 
@@ -46,7 +49,7 @@ const allBlogs = filterData.map((blog) =>{
          <div className="blogs">
             <h1>Blogs</h1> 
             <Search setData={setData}/>
-            {allBlogs}
+            {load?allBlogs: <div className="load"><FaSpinner className="icon" /><h1>PLease Wait Loading ...</h1></div>}
             <Comments />
         </div>
     )
