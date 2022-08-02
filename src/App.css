@@ -6,7 +6,6 @@ font-family: 'Lato', sans-serif;
 
 }
 
-
 /* Navstyling */
 .head{
   background-color: #F5CECE;
@@ -279,9 +278,17 @@ width: 45%;
   @media only screen and (max-width: 1390px) {
     .images{
       width: 50%;
-      height: 60%;
+      height: 55%;
       margin-left: 40px;
+      
+    }
+    .images img{
+      padding-left: 25px;
     }
   
     
     }
+  
+ 
+    
+  
