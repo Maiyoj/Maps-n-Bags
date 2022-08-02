@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body{
+
+font-family: 'Lato', sans-serif;
+
+}
+
+
 /* Navstyling */
 .head{
   background-color: #F5CECE;
@@ -14,6 +23,7 @@
   height: 10vh;
   position: sticky;
   width: 100%;
+  font-weight: bold;
 }
 
 
@@ -162,7 +172,7 @@ width: 45%;
  
 }
 .updateForm input{
-  width: 63%;
+  width: 62%;
   padding: 10px;
 }
 .submit{
@@ -171,6 +181,7 @@ width: 45%;
   background-color: white;
   color:black;
   margin-bottom: 25px;
+  
 }
 
 
@@ -253,7 +264,6 @@ width: 45%;
 }
 }
 
-
 @media only screen and (min-width: 1390px) {
   .images{
     width: 55%;
@@ -266,4 +276,12 @@ width: 45%;
   }
   
   }
+  @media only screen and (max-width: 1390px) {
+    .images{
+      width: 50%;
+      height: 60%;
+      margin-left: 40px;
+    }
   
+    
+    }
