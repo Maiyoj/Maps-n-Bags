@@ -277,13 +277,14 @@ width: 45%;
   }
   @media only screen and (max-width: 1390px) {
     .images{
-      width: 50%;
-      height: 55%;
-      margin-left: 40px;
+      width: 53%;
+      height: 53%;
+      margin-left: 48px;
       
     }
     .images img{
-      padding-left: 25px;
+      padding-left: 28px;
+      margin-right: 18px;
     }
   
     
