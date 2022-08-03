@@ -27,7 +27,7 @@ function Home(){
         <div className="contact">
             <p className="icons">INSTA<FaInstagramSquare />GRAM</p>
             <p>adventure@gmail.com</p>
-            <p>@2022 designed with love by by Valentine. All Rights Reserved </p>
+            <p>@2022 designed with love by Valentine. All Rights Reserved </p>
         </div>
         </div>
         </>
